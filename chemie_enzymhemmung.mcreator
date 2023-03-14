@@ -73,6 +73,39 @@
           }
         ]
       }
+    },
+    {
+      "name": "WasserMitZuckerPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wasser_mit_zucker_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemieenzymhemmung/procedures/WasserMitZuckerPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WasserMitZucker",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wasser_mit_zucker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemieenzymhemmung/item/WasserMitZuckerItem.java",
+          "src/main/resources/assets/chemie_enzymhemmung/models/item/wasser_mit_zucker.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -80,6 +113,7 @@
   "language_map": {
     "en_us": {
       "item.chemie_enzymhemmung.becks_pils": "Becks Pils",
+      "item.chemie_enzymhemmung.wasser_mit_zucker": "Wasser Mit Zucker",
       "item.chemie_enzymhemmung.vodka": "Vodka"
     }
   },
