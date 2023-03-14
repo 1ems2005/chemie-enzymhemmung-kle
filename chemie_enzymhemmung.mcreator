@@ -164,6 +164,16 @@
   "language_map": {
     "en_us": {
       "item.chemie_enzymhemmung.becks_pils": "Becks Pils",
+      "item.chemie_enzymhemmung.wasser_mit_zucker": "Sugarwater",
+      "item.chemie_enzymhemmung.vodka": "Vodka"
+    },
+    "lkt_us": {
+      "item.chemie_enzymhemmung.becks_pils": "Dis smell no good",
+      "item.chemie_enzymhemmung.wasser_mit_zucker": "yummywata",
+      "item.chemie_enzymhemmung.vodka": "me no fel good bai dis"
+    },
+    "de_de": {
+      "item.chemie_enzymhemmung.becks_pils": "Becks Pils",
       "item.chemie_enzymhemmung.wasser_mit_zucker": "Wasser Mit Zucker",
       "item.chemie_enzymhemmung.vodka": "Vodka"
     }
