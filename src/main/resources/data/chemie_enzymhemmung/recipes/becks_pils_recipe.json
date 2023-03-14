@@ -1,0 +1,19 @@
+{
+  "group": "drinks",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "item": "minecraft:potion"
+    }
+  ],
+  "result": {
+    "item": "chemie_enzymhemmung:becks_pils",
+    "count": 1
+  }
+}

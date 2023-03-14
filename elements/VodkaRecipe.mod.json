@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "drinks",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "Items.CHORUS_FRUIT_POPPED"
+      },
+      {
+        "value": "Items.NETHER_WART"
+      },
+      {
+        "value": "Items.CHORUS_FRUIT"
+      },
+      {
+        "value": "Blocks.NETHER_WART"
+      },
+      {
+        "value": "CUSTOM:BecksPils"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Vodka"
+    },
+    "name": "vodka_recipe",
+    "namespace": "mod"
+  }
+}

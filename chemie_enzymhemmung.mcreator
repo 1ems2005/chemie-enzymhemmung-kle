@@ -106,6 +106,57 @@
           "src/main/resources/assets/chemie_enzymhemmung/models/item/wasser_mit_zucker.json"
         ]
       }
+    },
+    {
+      "name": "WasserMitZuckerRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wasser_mit_zucker_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemie_enzymhemmung/recipes/wasser_mit_zucker_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BecksPilsRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "becks_pils_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemie_enzymhemmung/recipes/becks_pils_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "VodkaRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vodka_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemie_enzymhemmung/recipes/vodka_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LootDrinks",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loot_drinks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemie_enzymhemmung/loot_tables/gameplay/loot_drinks.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],

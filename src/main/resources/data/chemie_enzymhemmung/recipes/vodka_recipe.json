@@ -1,0 +1,25 @@
+{
+  "group": "drinks",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:chorus_fruit"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "chemie_enzymhemmung:becks_pils"
+    }
+  ],
+  "result": {
+    "item": "chemie_enzymhemmung:vodka",
+    "count": 1
+  }
+}

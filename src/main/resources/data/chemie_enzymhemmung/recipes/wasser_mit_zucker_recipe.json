@@ -1,0 +1,22 @@
+{
+  "group": "drinks",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:potion"
+    }
+  ],
+  "result": {
+    "item": "chemie_enzymhemmung:wasser_mit_zucker",
+    "count": 1
+  }
+}
