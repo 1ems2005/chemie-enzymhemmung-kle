@@ -1,0 +1,108 @@
+{
+  "mod_elements": [
+    {
+      "name": "BecksPilsPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "becks_pils_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemieenzymhemmung/procedures/BecksPilsPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BecksPils",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "becks_pils",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemie_enzymhemmung/models/item/becks_pils.json",
+          "src/main/java/net/mcreator/chemieenzymhemmung/item/BecksPilsItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Vodka",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vodka",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemie_enzymhemmung/models/item/vodka.json",
+          "src/main/java/net/mcreator/chemieenzymhemmung/item/VodkaItem.java"
+        ]
+      }
+    },
+    {
+      "name": "VodkaPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vodka_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemieenzymhemmung/procedures/VodkaPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.chemie_enzymhemmung.becks_pils": "Becks Pils",
+      "item.chemie_enzymhemmung.vodka": "Vodka"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "chemie_enzymhemmung",
+    "modName": "Chemie Enzymhemmung",
+    "version": "1.0.0",
+    "author": "marce, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.19.2",
+    "modElementsPackage": "net.mcreator.chemieenzymhemmung",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
